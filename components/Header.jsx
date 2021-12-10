@@ -35,7 +35,7 @@ function Header() {
           placeholder="Start your search"
         />
         <SearchIcon
-          className="hidden md:inline-flex h-8 bg-abnbpink 
+          className="hidden lg:inline-flex h-8 bg-abnbpink 
         text-white rounded-full p-2 
         cursor-pointer md:mx-2"
         />
