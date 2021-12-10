@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Hero } from "../components/Hero";
 import Largecard from "../components/Largecard";
@@ -50,6 +51,7 @@ export default function Home({ exploreData, cardsData }) {
           buttonText="Learn more"
         />
       </main>
+      <Footer />
     </div>
   );
 }
