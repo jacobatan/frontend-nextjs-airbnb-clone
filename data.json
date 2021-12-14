@@ -1,50 +1,86 @@
 [
   {
-    "id": "1",
-    "img": "https://a0.muscache.com/im/pictures/54cf62c3-50f8-492c-8f43-ac600c99b490.jpg?im_q=medq&im_w=240",
-    "location": "Auckland",
-    "distance": "15 minute drive"
+    "id": 1,
+    "img": "https://a0.muscache.com/im/pictures/f923b294-8b45-4a18-be06-485ee401b400.jpg?im_w=1200",
+    "location": "Queenstown, New Zealand",
+    "title": "Hideout Cabin - Luxury Tiny Home",
+    "description": "2 guests · 1 bed · 1 bath · Waterfront · Kitchen · Wi-Fi · Free parking on premises · Air conditioning",
+    "star": 4.97,
+    "price": 245,
+    "total": "$725.00 NZD total",
+    "long": 168.662643,
+    "lat": -45.031162
   },
   {
-    "id": "2",
-    "img": "https://a0.muscache.com/im/pictures/be4d3ba5-08d7-4afe-95a7-f2da6453886a.jpg?im_q=medq&im_w=240",
-    "location": "Nelson",
-    "distance": "1.5 hour drive"
+    "id": 2,
+    "img": "https://a0.muscache.com/im/pictures/1eb79e08-c434-4998-941d-89613a506bc2.jpg?im_w=1200",
+    "location": "Arrowtown, New Zealand",
+    "title": "Luxury Guesthouse with Panoramic Lake/Mt Views",
+    "description": "3 guests, · 1 bedroom, · 1 bed · 1 bath · Kitchen · Free parking on premises · TV · Air conditioning",
+    "star": 4.97,
+    "price": 306,
+    "total": "$918 NZD total",
+    "long": 150.97728,
+    "lat": -33.7805
   },
   {
-    "id": "3",
-    "img": "https://a0.muscache.com/im/pictures/7253e011-7c22-48fd-b75d-d0da35372397.jpg?im_q=medq&im_w=240",
-    "location": "Lake Tekapo",
-    "distance": "3.5 hour drive"
+    "id": 3,
+    "img": "https://a0.muscache.com/im/pictures/1fa77b3a-c6ec-4de0-972c-7d7030112604.jpg?im_w=1200",
+    "location": "Beaumont, New South Wales",
+    "title": "Arabella - Award Winning Tiny Home On 140 Acres",
+    "description": "3 guests · 1 bedroom · 2 beds · 1 bath · Kitchen · Free parking on premises ·Pets allowed · Air conditioning",
+    "star": 4.92,
+    "price": 1060.0,
+    "total": "$3,234.60 AUD total",
+    "long": 150.558971,
+    "lat": -34.777738
   },
   {
-    "id": "4",
-    "img": "https://a0.muscache.com/im/pictures/52e8083e-2de2-446d-a860-534eab250541.jpg?im_q=medq&im_w=240",
-    "location": "Hanmer Springs",
-    "distance": "15 minute drive"
+    "id": 4,
+    "img": "https://a0.muscache.com/im/pictures/139ba8b6-c444-4cf1-a0d4-66882772c0ea.jpg?im_w=1200",
+    "location": "Saint Albans, New South Wales",
+    "title": "St Albans Stables - Studio Apartment",
+    "description": "2 guests · 1 bedroom · 1 bed · 1 bath · Kitchen · Free parking on premises · Pool · Pets allowed",
+    "star": 4.62,
+    "price": 129.0,
+    "total": "$417.00 AUD total",
+    "long": 150.969576,
+    "lat": -33.293565
   },
   {
-    "id": "5",
-    "img": "https://a0.muscache.com/im/pictures/20e74de0-0eb8-4fca-afb8-b111875acdf5.jpg?im_q=medq&im_w=240",
-    "location": "Te Anau",
-    "distance": "6.5 hour drive"
+    "id": 5,
+    "img": "https://a0.muscache.com/im/pictures/06f173e9-41ef-4eb9-b4df-71e3596cda7f.jpg?im_w=1200",
+    "location": "Foxground, New South Wales",
+    "title": "Creek side Tiny House in a sub-tropical rainforest",
+    "description": "2 guest · 1 bedroom · 1 bed · 1 bath · Kitchen · Free parking on premises · Pets allowed · Patio or balcony",
+    "star": 4.92,
+    "price": 240.0,
+    "total": "$889.58 AUD total",
+    "long": 150.771312,
+    "lat": -34.70441
   },
   {
-    "id": "6",
-    "img": "https://a0.muscache.com/im/pictures/e639b7ab-aee3-48ee-9743-216684a51319.jpg?im_q=medq&im_w=240",
-    "location": "Queenstown",
-    "distance": "15 minute drive"
+    "id": 6,
+    "img": "https://a0.muscache.com/im/pictures/monet/Select-28340910/original/e91bc887-4590-4db3-9206-98baedb1ea2f?im_w=1440",
+    "location": "Matraville, New South Wales",
+    "title": "Unwind in a Tranquil Timber Studio Set in a Private Garden",
+    "description": "2 guests · 1 bed · 1 bath · Free street parking · Backyard · Luggage drop-off allowed · Hair dryer · Microwave",
+    "star": 4.98,
+    "price": 250.0,
+    "total": "$750.00 AUD total",
+    "long": 151.232309,
+    "lat": -33.957366
   },
   {
-    "id": "7",
-    "img": "https://a0.muscache.com/im/pictures/ca3737ef-0faf-46ba-b055-b4a2d99e2cea.jpg?im_q=medq&im_w=240",
-    "location": "Christchurch",
-    "distance": "15 minute drive"
-  },
-  {
-    "id": "8",
-    "img": "https://a0.muscache.com/im/pictures/585d1e53-e2e1-4baf-a34e-36301dd1e2da.jpg?im_q=medq&im_w=240",
-    "location": "Darlinghurst",
-    "distance": "15 minute drive"
+    "id": 7,
+    "img": "https://a0.muscache.com/im/pictures/miso/Hosting-49888364/original/7b6aa852-2e06-46cf-826b-d0016e8f14cc.jpeg?im_w=1200",
+    "location": "Elvina Bay, New South Wales",
+    "title": "The Boathouse Retreat @ Elvina Bay",
+    "description": "2 guest · 1 bed · 1 bath · Private beach access – Beachfront · Kitchen · Wi-Fi · Air conditioning · Private patio or balcony",
+    "star": 4.91,
+    "price": 249.0,
+    "total": "$863.01 AUD total",
+    "long": 151.278809,
+    "lat": -33.637527
   }
 ]
