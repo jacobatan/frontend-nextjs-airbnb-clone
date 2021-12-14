@@ -6,4 +6,10 @@
         hover:shadow-lg cursor-pointer active:scale-95 
         transform transition duration-100 ease-out active:bg-gray-200;
   }
+  .mapbutton {
+    @apply px-2 py-1 border rounded-full absolute 
+        hover:shadow-lg cursor-pointer active:scale-110 active:z-50
+        transform transition duration-100 ease-out active:bg-gray-200
+        bg-white;
+  }
 }

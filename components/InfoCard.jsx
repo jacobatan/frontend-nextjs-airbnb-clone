@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { HeartIcon } from "@heroicons/react/outline";
 import { StarIcon } from "@heroicons/react/solid";
+import HeartIconSolid from "@heroicons/react/solid/HeartIcon";
 
 function InfoCard({
   img,
@@ -13,11 +14,13 @@ function InfoCard({
   total,
   dayDiff,
 }) {
+  const [heartToggled, setHeartToggled] = useState(false);
+
   return (
     <div
       className="flex py-7 px-2 border-b cursor-pointer 
     hover:opacity-80 pr-4 hover:shadow-lg transition 
-    duration-200 ease-out first:border-t "
+    duration-200 ease-out first:border-t active:scale-95 "
     >
       <div
         className="relative h-24 w-40 
@@ -33,7 +36,17 @@ function InfoCard({
       <div className="flex flex-col flex-grow pl-5">
         <div className="flex justify-between">
           <p>{location}</p>
-          <HeartIcon className="h-7 cursor-pointer" />
+          {heartToggled ? (
+            <HeartIconSolid
+              onClick={() => setHeartToggled(false)}
+              className="h-7 cursor-pointer text-abnbpink"
+            />
+          ) : (
+            <HeartIcon
+              onClick={() => setHeartToggled(true)}
+              className="h-7 cursor-pointer"
+            />
+          )}
         </div>
 
         <h4 className="text-xl">{title}</h4>
