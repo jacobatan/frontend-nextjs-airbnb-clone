@@ -20,67 +20,67 @@
     "star": 4.97,
     "price": 306,
     "total": "$918 NZD total",
-    "long": 150.97728,
-    "lat": -33.7805
+    "long": 168.8350761,
+    "lat": -44.9405627
   },
   {
     "id": 3,
     "img": "https://a0.muscache.com/im/pictures/1fa77b3a-c6ec-4de0-972c-7d7030112604.jpg?im_w=1200",
-    "location": "Beaumont, New South Wales",
-    "title": "Arabella - Award Winning Tiny Home On 140 Acres",
-    "description": "3 guests · 1 bedroom · 2 beds · 1 bath · Kitchen · Free parking on premises ·Pets allowed · Air conditioning",
-    "star": 4.92,
-    "price": 1060.0,
-    "total": "$3,234.60 AUD total",
-    "long": 150.558971,
-    "lat": -34.777738
+    "location": "Hamilton, New Zealand",
+    "title": "Modern Private Apartment",
+    "description": "3 guests · 1 bedroom · 2 beds · 1 bath · Kitchen · Wifi · Kitchen · Air conditioning",
+    "star": 4.64,
+    "price": 101,
+    "total": "$3,234.60  ",
+    "long": 175.281788,
+    "lat": -37.7878809
   },
   {
     "id": 4,
     "img": "https://a0.muscache.com/im/pictures/139ba8b6-c444-4cf1-a0d4-66882772c0ea.jpg?im_w=1200",
-    "location": "Saint Albans, New South Wales",
-    "title": "St Albans Stables - Studio Apartment",
-    "description": "2 guests · 1 bedroom · 1 bed · 1 bath · Kitchen · Free parking on premises · Pool · Pets allowed",
-    "star": 4.62,
-    "price": 129.0,
-    "total": "$417.00 AUD total",
-    "long": 150.969576,
-    "lat": -33.293565
+    "location": "Auckland, New Zealands",
+    "title": "Wynyard Quarter Water View Apartment",
+    "description": "2 guests · 1 bedroom · 1 bed · 1 bath",
+    "star": 4.97,
+    "price": 164,
+    "total": "$417.00  ",
+    "long": 174.757704,
+    "lat": -36.8409032
   },
   {
     "id": 5,
     "img": "https://a0.muscache.com/im/pictures/06f173e9-41ef-4eb9-b4df-71e3596cda7f.jpg?im_w=1200",
-    "location": "Foxground, New South Wales",
-    "title": "Creek side Tiny House in a sub-tropical rainforest",
+    "location": "Wellington, New Zealand",
+    "title": "Handy to city & ferries, warm and comfortable.",
     "description": "2 guest · 1 bedroom · 1 bed · 1 bath · Kitchen · Free parking on premises · Pets allowed · Patio or balcony",
     "star": 4.92,
-    "price": 240.0,
-    "total": "$889.58 AUD total",
-    "long": 150.771312,
-    "lat": -34.70441
+    "price": 177,
+    "total": "$889.58",
+    "long": 174.7772114,
+    "lat": -41.2887953
   },
   {
     "id": 6,
     "img": "https://a0.muscache.com/im/pictures/monet/Select-28340910/original/e91bc887-4590-4db3-9206-98baedb1ea2f?im_w=1440",
-    "location": "Matraville, New South Wales",
-    "title": "Unwind in a Tranquil Timber Studio Set in a Private Garden",
+    "location": "Christchurch, New Zealand",
+    "title": "Private Self Contained Studio close to City",
     "description": "2 guests · 1 bed · 1 bath · Free street parking · Backyard · Luggage drop-off allowed · Hair dryer · Microwave",
     "star": 4.98,
-    "price": 250.0,
-    "total": "$750.00 AUD total",
-    "long": 151.232309,
-    "lat": -33.957366
+    "price": 66,
+    "total": "$750.0",
+    "long": 172.63623,
+    "lat": -43.532055
   },
   {
     "id": 7,
     "img": "https://a0.muscache.com/im/pictures/miso/Hosting-49888364/original/7b6aa852-2e06-46cf-826b-d0016e8f14cc.jpeg?im_w=1200",
-    "location": "Elvina Bay, New South Wales",
-    "title": "The Boathouse Retreat @ Elvina Bay",
+    "location": "Nelson, New Zealand",
+    "title": "ArrowRock 1 Nelson City Waterfront",
     "description": "2 guest · 1 bed · 1 bath · Private beach access – Beachfront · Kitchen · Wi-Fi · Air conditioning · Private patio or balcony",
     "star": 4.91,
-    "price": 249.0,
-    "total": "$863.01 AUD total",
-    "long": 151.278809,
-    "lat": -33.637527
+    "price": 159,
+    "total": "$863.01 ",
+    "long": 173.283997,
+    "lat": -41.2752
   }
 ]
