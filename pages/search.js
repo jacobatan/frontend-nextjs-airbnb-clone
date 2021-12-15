@@ -94,7 +94,7 @@ function Search({ searchResults }) {
 export default Search;
 
 export async function getServerSideProps(context) {
-  const searchResults = await fetch("https://jsonkeeper.com/b/EBCP").then(
+  const searchResults = await fetch("https://jsonkeeper.com/b/W0IX").then(
     (res) => res.json()
   );
 
