@@ -7,4 +7,3 @@ uses the following:
 - mapbox
 - heroicons
 - geolib
-- 
