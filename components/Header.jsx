@@ -84,8 +84,16 @@ function Header({ placeholder }) {
       </div>
       {/* globe and user icon */}
       <div className="flex items-center space-x-4 justify-end text-black">
-        <p className="hidden xl:inline">Become a host</p>
-        <GlobeAltIcon className="h-6 cursor-pointer" />
+        <p
+          className="hidden xl:inline cursor-pointer active:scale-90 transform transition ease-out 
+        hover:bg-cyan-50 rounded-full p-2"
+        >
+          Become a host
+        </p>
+        <GlobeAltIcon
+          className="h-6 cursor-pointer active:scale-90 
+        transform transition ease-out hover:bg-cyan-50"
+        />
         <div className="flex item-center space-x-2 border-2 p-2 rounded-full text-gray-600">
           <MenuIcon className="h-6" />
           <UserCircleIcon className="h-6" />

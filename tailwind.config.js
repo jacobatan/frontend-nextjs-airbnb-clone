@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         abnbpink: "#ff385c",
+        cyan: colors.cyan,
       },
       animation: {
         fadeIn: "fadeIn 2s ease-in forwards",

@@ -18,7 +18,9 @@ export default function Home({ exploreData, cardsData }) {
 
       <main className="max-w-7xl mx-auto px-8 sm:px-16 shadow-2xl my-5">
         <section className="pt-6">
-          <h2 className="text-4xl font-semibold pb-5">Explore Nearby</h2>
+          <h2 className="text-4xl font-semibold pb-5">
+            Inspiration for your next trip
+          </h2>
 
           {/* pull data from server */}
 
@@ -46,9 +48,9 @@ export default function Home({ exploreData, cardsData }) {
 
         <Largecard
           img="https://a0.muscache.com/im/pictures/2da67c1c-0c61-4629-8798-1d4de1ac9291.jpg?im_w=1440"
-          title="Try hosting"
+          title="Questions about hosting?"
           description="Earn extra income and unlock new opportunities by sharing your space."
-          buttonText="Learn more"
+          buttonText="Ask a superhost"
         />
       </main>
       <Footer />
