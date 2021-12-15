@@ -47,7 +47,7 @@ export default function Home({ exploreData, cardsData }) {
         </section>
 
         <Largecard
-          img="https://a0.muscache.com/im/pictures/2da67c1c-0c61-4629-8798-1d4de1ac9291.jpg?im_w=1440"
+          img="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
           title="Questions about hosting?"
           description="Earn extra income and unlock new opportunities by sharing your space."
           buttonText="Ask a superhost"
