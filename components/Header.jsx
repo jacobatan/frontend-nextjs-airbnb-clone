@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import {
   SearchIcon,
@@ -11,13 +11,21 @@ import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 import { DateRangePicker } from "react-date-range";
 import { useRouter } from "next/dist/client/router";
+import Headerguests from "./Headerguests";
 
 function Header({ placeholder }) {
   const [searchInput, setSearchInput] = useState("");
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
-  const [noOfGuests, setNoOfGuests] = useState(1);
+  const [noOfGuests, setNoOfGuests] = useState(0);
+  const [noOfAdults, setNoOfAdults] = useState(1);
+  const [noOfChildren, setNoOfChildren] = useState(0);
+  const [noOfInfants, setNoOfInfants] = useState(0);
   const router = useRouter();
+
+  useEffect(() => {
+    setNoOfGuests(+noOfAdults + +noOfChildren + +noOfInfants); // note : +'100' === number('100')
+  }, [noOfAdults, noOfChildren, noOfInfants]);
 
   const handleSelect = (ranges) => {
     console.log(ranges);
@@ -107,22 +115,33 @@ function Header({ placeholder }) {
             rangeColors={["#FD5B61"]}
             onChange={handleSelect}
           />
-          <div className="flex items-center border-b mb-4">
-            <h2 className="text-2xl flex-grow font-semibold">
+          <div className="flex flex-col border-b mb-4">
+            <h2 className="text-2xl flex-grow font-semibold border-b pb-2">
               Number of guests
             </h2>
-            <UsersIcon className="h-5" />
-            <input
-              value={noOfGuests}
-              type="number"
-              className="w-12 pl-2 text-lg outline-none"
-              min={1}
-              max={30}
-              onChange={(event) => setNoOfGuests(event.target.value)}
-            />
+            <div className="flex flex-col ">
+              <Headerguests
+                noOfGuests={noOfAdults}
+                update={setNoOfAdults}
+                guestType="Adults"
+                description="Ages 13 or above"
+              />
+              <Headerguests
+                noOfGuests={noOfChildren}
+                update={setNoOfChildren}
+                guestType="Children"
+                description="Ages 2-12"
+              />
+              <Headerguests
+                noOfGuests={noOfInfants}
+                update={setNoOfInfants}
+                guestType="Infants"
+                description="Ages under 2"
+              />
+            </div>
           </div>
           <div className="flex mb-2">
-            <button className="flex-grow text-gray-500" onClick={resetInput}>
+            <button className="flex-grow text-gray-500 " onClick={resetInput}>
               Cancel
             </button>
             <button onClick={search} className="flex-grow text-abnbpink ">
