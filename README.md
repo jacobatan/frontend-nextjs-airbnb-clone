@@ -1,1 +1,1 @@
-frontend of an airbnb clone using next js + tailwind
+# frontend airbnb clone using nextjs & tailwind
