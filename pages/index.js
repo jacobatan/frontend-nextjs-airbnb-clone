@@ -55,15 +55,15 @@ export default function Home({ exploreData, cardsData }) {
           <h2 className="text-4xl font-semibold py-8">
             Discover Airbnb Experiences
           </h2>{" "}
-          <div className="grid grid-cols-2">
-            <div className="pr-4">
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className="pb-4 md:pr-4 md:pb-0">
               <Largecard
                 img="https://images.pexels.com/photos/8527681/pexels-photo-8527681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 title="Things to do on your trip"
                 buttonText="Experiences"
               />{" "}
             </div>
-            <div className="pl-4">
+            <div className="pt-4 md:pl-4 md:pt-0">
               <Largecard
                 img="https://images.pexels.com/photos/4012966/pexels-photo-4012966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                 title="Things to do from home"
