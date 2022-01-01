@@ -6,6 +6,4 @@ A clone of the airbnb website using Next and TailwindCSS
 uses the following:
 - nextjs
 - tailwind css
-- mapbox
-- heroicons
-- geolib
+
